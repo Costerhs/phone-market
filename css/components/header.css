@@ -1,0 +1,57 @@
+.header {
+    width: 1200px;
+    height: 90px;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin: 25px 0;
+    margin-left: 32px;
+}
+
+.nav {
+    display: flex;
+    margin-right: -14px;
+}
+
+.nav p {
+    margin: 33px 0px;
+    margin-right: 42px;
+
+    font-size: 15px;
+    font-weight: 400px;
+    color: #666666;
+
+    cursor: pointer;
+}
+
+.btnApp {
+    width: 172px;
+    height: 40px;
+
+    background: #222222;
+    border: 0px;
+    border-radius: 4px;
+
+    color: white;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 400;
+
+    margin: 25px;
+}
+
+.btnApp:hover {
+    background: #4E4E4E;
+}
+
+.btnApp:active {
+    scale: (0, 98);
+}
+
+.header__menu {
+    display: flex;
+}

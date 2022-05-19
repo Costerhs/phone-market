@@ -1,0 +1,71 @@
+.timer {
+    padding: 60px 0px 78px 0px;
+    text-align: center;
+    color: white;
+    background: url(../../img/other/phon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.timer__title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+}
+
+.timer__subtitle {
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+
+
+}
+
+.timer__text {
+    width: 790px;
+    height: 298px;
+    margin: 0 auto;
+}
+
+.timer__time {
+    display: flex;
+
+    width: 100%;
+
+    margin-left: 40px;
+    margin-top: 3px;
+
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing: 1.1px
+}
+
+.timer__time div {
+    margin-right: 29px;
+}
+
+.weeks {
+    width: 790px;
+    margin-top: -10px;
+    display: flex;
+}
+
+.weeks div {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.weeks__days {
+    margin-left: 52px;
+    margin-right: 126px;
+}
+
+.weeks__hours {
+    margin-right: 113px;
+}
+
+.weeks__minutes {
+    margin-right: 90px;
+}

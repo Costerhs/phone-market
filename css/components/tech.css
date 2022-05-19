@@ -1,0 +1,59 @@
+.techContainer {
+
+    overflow: hidden;
+}
+
+.tech {
+    margin: 100px 136px;
+    height: 444px;
+
+    display: flex;
+}
+
+.tech__text {
+    margin-left: 75px;
+    margin-top: 75px;
+
+    width: 403px;
+}
+
+.tech__underTitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #222222;
+}
+
+.tech__title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+
+    color: #222222;
+
+    margin-top: 5px;
+}
+
+.tech__subtitle {
+
+    margin-top: 15px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+
+
+    color: #666666;
+}
+
+
+.tech__img__phone {
+    width: 376px;
+
+    margin-left: 210px;
+}

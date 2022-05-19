@@ -1,0 +1,125 @@
+.featContainer {
+    background-color: #222222;
+    border: 1px solid #222222;
+}
+
+.features {
+
+    margin: 95px 120px;
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title__word {
+    font-weight: 400;
+    font-size: 14px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.title__text {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.features__description {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+
+    width: 1268px;
+
+    margin-top: 45px;
+    margin-left: 16px;
+
+}
+
+.description__item {
+    width: 379px;
+    height: 490px;
+
+    background-color: white;
+    border-radius: 20px;
+
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+/* .description__text {
+    border-top: 1px solid red;
+} */
+
+.blues {
+    color: #0278ED;
+}
+
+.blues__btn {
+    background: #0278ED;
+}
+
+.lists {
+    color: #FF5437;
+}
+
+.lists__btn {
+    background: #FF5437;
+}
+
+.varied {
+    color: #FF9209;
+}
+
+.varied__btn {
+    background: #FF9209;
+}
+
+.split {
+    color: #E738CE;
+}
+
+.up {
+    color: #00C6DF;
+}
+
+.focus {
+    color: #B25DF8;
+}
+
+.description__phone {
+    height: 293px;
+    overflow: hidden;
+
+}
+
+.phoneImg {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 227px;
+}
+
+.calendarImg {
+    width: 64px;
+    margin: 0 auto;
+    margin-top: -32px;
+    margin-bottom: 14px;
+}
+
+.description__title {
+    font-weight: 400;
+    font-size: 24px;
+
+
+    margin-bottom: 6px;
+}
+
+.description__subtitle {
+    width: 286px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 15px;
+    color: #222222;
+}

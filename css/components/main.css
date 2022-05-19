@@ -1,0 +1,78 @@
+.main {
+    width: 1168px;
+    height: auto;
+
+    display: flex;
+
+
+    margin-top: 93px;
+
+    margin-left: 136px;
+}
+
+.main__description {
+    width: 420px;
+    height: 354px;
+    margin-left: 74px;
+    margin-top: 43px;
+}
+
+.main__logo {
+    width: 190px;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+.main__title {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 60px;
+
+    color: #222222;
+    margin-top: 14px;
+    margin-left: 3px;
+}
+
+.main__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    margin-top: 17px;
+    margin-left: 5px;
+}
+
+.main__btn {
+    width: 148px;
+    height: 40px;
+
+    background: #222222;
+    border: 0px;
+    border-radius: 4px;
+
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 8px;
+
+    letter-spacing: 2px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main__btn:hover {
+    background: #4E4E4E;
+}
+
+.main__mobile {
+    width: 376px;
+    height: 548px;
+    overflow: hidden;
+    margin-left: 200px;
+}
+
+.mobile__phone {
+    width: 396px;
+}

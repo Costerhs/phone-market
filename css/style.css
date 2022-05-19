@@ -1,15 +1,24 @@
+@import url('./components/header.css');
+@import url('./components/timer.css');
+@import url('./components/main.css');
+@import url('./components/dark.css');
+@import url('./components/features.css');
+@import url('./components/advantage.css');
+@import url('./components/speed.css');
+@import url('./components/tech.css');
+@import url('./components/pricing.css');
+@import url('./components/testimonials.css');
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
-
 ul[class],
 ol[class] {
     padding: 0;
 }
-
 
 body,
 h1,
@@ -71,371 +80,55 @@ select {
     height: auto;
 }
 
-.header {
-    width: 1200px;
-    height: 90px;
-
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.header__logo {
-    margin: 25px 0;
-    margin-left: 32px;
-}
-
-.nav {
-    display: flex;
-    margin-right: -14px;
-}
-
-.nav p {
-    margin: 33px 0px;
-    margin-right: 42px;
-
-    font-size: 15px;
-    font-weight: 400px;
-    color: #666666;
-
-    cursor: pointer;
-}
-
-.btnApp {
-    width: 172px;
-    height: 40px;
-
-    background: #222222;
-    border: 0px;
-    border-radius: 4px;
-
-    color: white;
-    letter-spacing: 2px;
-    font-size: 14px;
-    font-weight: 400;
-
-    margin: 25px;
-}
-
-.btnApp:hover {
-    background: #4E4E4E;
-}
-
-.btnApp:active {
-    scale: (0, 98);
-}
-
-.header__menu {
-    display: flex;
-}
-
-.timer {
-    padding: 60px 0px 78px 0px;
-    text-align: center;
-    color: white;
-    background: url(../img/other/phon.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.timer__title {
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: 700;
-    letter-spacing: 1.1px;
-}
-
-.timer__subtitle {
-    font-weight: 700;
-    font-size: 30px;
-    letter-spacing: 1.5px;
-
-
-}
-
-.timer__text {
-    width: 790px;
-    height: 298px;
-    margin: 0 auto;
-}
-
-.timer__time {
-    display: flex;
-
+.pricing,
+.testimonials {
     width: 100%;
-
-    margin-left: 40px;
-    margin-top: 3px;
-
-    font-size: 100px;
-    font-weight: 400;
-    letter-spacing: 1.1px
 }
 
-.timer__time div {
-    margin-right: 29px;
-}
-
-.weeks {
-    width: 790px;
-    margin-top: -10px;
+.pricingContainer,
+.testimonialsContainer {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 100px;
 }
 
-.weeks div {
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-}
-
-.weeks__days {
-    margin-left: 52px;
-    margin-right: 126px;
-}
-
-.weeks__hours {
-    margin-right: 113px;
-}
-
-.weeks__minutes {
-    margin-right: 90px;
-}
-
-.mainContainer {}
-
-.main {
-    /* border: 1px solid black; */
-    width: 1168px;
-    height: auto;
-
-    display: flex;
-
-
-    margin-top: 93px;
-
-    margin-left: 136px;
-}
-
-.main__description {
-    /* border: 1px solid rgb(255, 255, 255); */
-    width: 420px;
-    height: 354px;
-    margin-left: 74px;
-    margin-top: 43px;
-}
-
-.main__logo {
-    width: 190px;
-    margin-top: 2px;
-    margin-left: 3px;
-}
-
-.main__title {
-    font-weight: 400;
-    font-size: 54px;
-    line-height: 60px;
-
-    color: #222222;
-    margin-top: 14px;
-    margin-left: 3px;
-}
-
-.main__text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #222222;
-    margin-top: 17px;
-    margin-left: 5px;
-}
-
-.main__btn {
-    width: 148px;
-    height: 40px;
-
-    background: #222222;
-    border: 0px;
-    border-radius: 4px;
-
-    margin-top: 20px;
-    margin-right: 0px;
-    margin-left: 8px;
-
-    letter-spacing: 2px;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
+.pricing__underTitle,
+.testimonials__underTitle {
     font-size: 14px;
-    font-weight: 400;
-}
-
-.main__btn:hover {
-    background: #4E4E4E;
-}
-
-.main__mobile {
-    width: 376px;
-    height: 548px;
-    overflow: hidden;
-    margin-left: 200px;
-}
-
-.mobile__phone {
-    width: 396px;
-}
-
-
-
-
-
-
-.featContainer {
-    background-color: #222222;
-    border: 1px solid #222222;
-}
-
-.features {
-
-    margin: 95px 120px;
+    line-height: 20px;
 
     text-align: center;
-    color: #FFFFFF;
-}
-
-.title__word {
-    font-weight: 400;
-    font-size: 14px;
-
     letter-spacing: 2px;
     text-transform: uppercase;
+
+    color: #222222;
 }
 
-.title__text {
-    margin-top: 4px;
-    font-weight: 400;
+.pricing__title,
+.testimonials__title {
     font-size: 32px;
     line-height: 36px;
-}
 
-.features__description {
-    display: flex;
-    flex-wrap: wrap;
-    color: black;
-
-    width: 1268px;
-
-    margin-top: 45px;
-    margin-left: 16px;
-
-}
-
-.description__item {
-    width: 379px;
-    height: 490px;
-
-    background-color: white;
-    border-radius: 20px;
-
-    margin-right: 16px;
-    margin-bottom: 16px;
-}
-
-/* .description__text {
-    border-top: 1px solid red;
-} */
-
-.calendar {
-    color: #0278ED;
-}
-
-.lists {
-    color: #FF5437;
-}
-
-.varied {
-    color: #FF9209;
-}
-
-.split {
-    color: #E738CE;
-}
-
-.up {
-    color: #00C6DF;
-}
-
-.focus {
-    color: #B25DF8;
-}
-
-.description__phone {
-    height: 293px;
-    overflow: hidden;
-
-}
-
-.phoneImg {
-    margin: 0 auto;
-    margin-top: 40px;
-    width: 227px;
-}
-
-.calendarImg {
-    width: 64px;
-    margin: 0 auto;
-    margin-top: -32px;
-    margin-bottom: 14px;
-}
-
-.description__title {
-    font-weight: 400;
-    font-size: 24px;
-
-
-    margin-bottom: 6px;
-}
-
-.description__subtitle {
-    width: 286px;
-    margin: 0 auto;
-    font-weight: 400;
-    font-size: 15px;
-    color: #222222;
-}
-
-
-
-
-
-
-.advanContainer {
-    background: #FF5437;
-    height: 316px;
-    margin-top: -11px;
-}
-
-.advantage {
-    display: flex;
-    justify-content: space-between;
-
-    margin-left: 199px;
-    margin-right: 224px;
-    padding-top: 52px;
-    margin-bottom: 100px;
-}
-
-.advanItem__title {
-    font-weight: 400;
-    font-size: 96px;
-    color: white;
-    margin-bottom: -1px;
-}
-
-.advanItem__subtitle {
     text-align: center;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: white;
+
+    color: #222222;
+
+    margin-top: 5px;
+}
+
+.pricing__subtitle,
+.testimonials__subtitle {
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+
+    text-align: center;
+
+    color: #666666;
+
+    width: 600px;
+
+    margin-top: 14px;
 }
