@@ -4,7 +4,6 @@
 }
 
 .darkContainer {
-    display: flex;
     flex-direction: column;
     align-items: center;
 
@@ -13,9 +12,7 @@
 }
 
 .dark__underTitle {
-    font-size: 14px;
     line-height: 20px;
-
 
     text-align: center;
     letter-spacing: 2px;
@@ -25,12 +22,8 @@
 }
 
 .dark__title {
-    font-weight: 400;
-    font-size: 32px;
     line-height: 36px;
-
     text-align: center;
-
     color: #FFFFFF;
 
     margin-top: 5px;
@@ -44,10 +37,7 @@
 .dark__subtitle {
     font-size: 18px;
     line-height: 24px;
-    /* or 133% */
-
     text-align: center;
-
     color: #ffffff;
 
     width: 600px;
@@ -67,19 +57,14 @@
     margin-top: 35px;
 }
 
-.toggleMode {
-    display: flex;
-}
+
 
 .sun,
 .moon {
-    font-size: 14px;
     line-height: 20px;
-
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 

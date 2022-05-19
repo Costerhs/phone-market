@@ -8,6 +8,10 @@
 @import url('./components/tech.css');
 @import url('./components/pricing.css');
 @import url('./components/testimonials.css');
+@import url('./components/donwload.css');
+@import url('./components/faq.css');
+@import url('./components/foot.css');
+@import url('overall.css');
 
 *,
 *::before,
@@ -80,6 +84,7 @@ select {
     height: auto;
 }
 
+
 .pricing,
 .testimonials {
     width: 100%;
@@ -87,7 +92,6 @@ select {
 
 .pricingContainer,
 .testimonialsContainer {
-    display: flex;
     flex-direction: column;
     align-items: center;
 
@@ -96,7 +100,7 @@ select {
 
 .pricing__underTitle,
 .testimonials__underTitle {
-    font-size: 14px;
+
     line-height: 20px;
 
     text-align: center;
@@ -107,22 +111,22 @@ select {
 }
 
 .pricing__title,
-.testimonials__title {
-    font-size: 32px;
+.testimonials__title,
+.download__title {
     line-height: 36px;
 
     text-align: center;
 
     color: #222222;
 
-    margin-top: 5px;
+
 }
 
 .pricing__subtitle,
-.testimonials__subtitle {
+.testimonials__subtitle,
+.download__subtitle {
     font-size: 18px;
     line-height: 24px;
-    /* or 133% */
 
     text-align: center;
 

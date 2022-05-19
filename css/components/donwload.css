@@ -1,0 +1,23 @@
+.downloadContainer {
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 100px;
+    padding-bottom: 141px;
+}
+
+.download__underTitle {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #222222;
+}
+
+.download__title {
+    margin-top: 4px;
+}
+
+.appStore {
+    margin-top: 25px;
+}

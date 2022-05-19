@@ -1,13 +1,10 @@
 .techContainer {
-
     overflow: hidden;
 }
 
 .tech {
     margin: 100px 136px;
     height: 444px;
-
-    display: flex;
 }
 
 .tech__text {
@@ -18,8 +15,6 @@
 }
 
 .tech__underTitle {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 20px;
 
     letter-spacing: 2px;
@@ -29,8 +24,6 @@
 }
 
 .tech__title {
-    font-weight: 400;
-    font-size: 32px;
     line-height: 36px;
 
     color: #222222;
@@ -39,15 +32,9 @@
 }
 
 .tech__subtitle {
-
     margin-top: 15px;
-
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
-
-
     color: #666666;
 }
 

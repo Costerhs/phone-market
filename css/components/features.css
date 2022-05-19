@@ -4,7 +4,6 @@
 }
 
 .features {
-
     margin: 95px 120px;
 
     text-align: center;
@@ -12,22 +11,16 @@
 }
 
 .title__word {
-    font-weight: 400;
-    font-size: 14px;
-
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 .title__text {
     margin-top: 4px;
-    font-weight: 400;
-    font-size: 32px;
     line-height: 36px;
 }
 
 .features__description {
-    display: flex;
     flex-wrap: wrap;
     color: black;
 
@@ -35,7 +28,6 @@
 
     margin-top: 45px;
     margin-left: 16px;
-
 }
 
 .description__item {
@@ -49,9 +41,7 @@
     margin-bottom: 16px;
 }
 
-/* .description__text {
-    border-top: 1px solid red;
-} */
+
 
 .blues {
     color: #0278ED;
@@ -109,17 +99,14 @@
 }
 
 .description__title {
-    font-weight: 400;
     font-size: 24px;
-
-
     margin-bottom: 6px;
 }
 
 .description__subtitle {
     width: 286px;
     margin: 0 auto;
-    font-weight: 400;
+
     font-size: 15px;
     color: #222222;
 }

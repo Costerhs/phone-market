@@ -7,9 +7,7 @@
     margin-top: 7px;
 }
 
-.testimonials__set {
-    display: flex;
-}
+
 
 .testimonials__underTitle {
     margin-top: -5px;
@@ -25,7 +23,6 @@
     padding-top: 32px;
     padding-left: 38px;
 
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -48,8 +45,6 @@
     color: #222222;
 
     width: 295px;
-
-
 }
 
 .set__allSubtitle {
@@ -59,17 +54,10 @@
 .set__firstSubtitle {
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height, or 125% */
-
-
     color: #1B1A1A;
 }
 
 .set__secondSubtitle {
-    font-size: 14px;
     line-height: 20px;
-
     color: #1B1A1A;
-
-
 }

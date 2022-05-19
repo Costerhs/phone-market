@@ -10,12 +10,10 @@
 .timer__title {
     text-transform: uppercase;
     font-size: 50px;
-    font-weight: 700;
     letter-spacing: 1.1px;
 }
 
 .timer__subtitle {
-    font-weight: 700;
     font-size: 30px;
     letter-spacing: 1.5px;
 
@@ -29,15 +27,13 @@
 }
 
 .timer__time {
-    display: flex;
-
     width: 100%;
 
     margin-left: 40px;
     margin-top: 3px;
 
     font-size: 100px;
-    font-weight: 400;
+
     letter-spacing: 1.1px
 }
 
@@ -48,12 +44,10 @@
 .weeks {
     width: 790px;
     margin-top: -10px;
-    display: flex;
 }
 
 .weeks div {
     font-size: 24px;
-    font-weight: 700;
     letter-spacing: 1.5px;
 }
 

@@ -3,7 +3,6 @@
     height: 90px;
 
     margin: 0 auto;
-    display: flex;
     justify-content: space-between;
 }
 
@@ -13,7 +12,6 @@
 }
 
 .nav {
-    display: flex;
     margin-right: -14px;
 }
 
@@ -22,7 +20,6 @@
     margin-right: 42px;
 
     font-size: 15px;
-    font-weight: 400px;
     color: #666666;
 
     cursor: pointer;
@@ -38,8 +35,6 @@
 
     color: white;
     letter-spacing: 2px;
-    font-size: 14px;
-    font-weight: 400;
 
     margin: 25px;
 }
@@ -50,8 +45,4 @@
 
 .btnApp:active {
     scale: (0, 98);
-}
-
-.header__menu {
-    display: flex;
 }

@@ -7,7 +7,6 @@
     margin: 100px 136px;
     height: 444px;
 
-    display: flex;
 }
 
 .speedSecurity__text {
@@ -18,8 +17,6 @@
 }
 
 .speedSecurity__underTitle {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 20px;
 
     letter-spacing: 2px;
@@ -29,8 +26,6 @@
 }
 
 .speedSecurity__title {
-    font-weight: 400;
-    font-size: 32px;
     line-height: 36px;
 
     color: #222222;
@@ -39,10 +34,9 @@
 }
 
 .speedSecurity__subtitle {
-
     margin-top: 15px;
 
-    font-weight: 400;
+
     font-size: 16px;
     line-height: 24px;
 

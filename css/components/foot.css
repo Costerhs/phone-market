@@ -1,0 +1,31 @@
+.foot {
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot__logo {
+    margin-top: 128px;
+}
+
+.foot__title {
+    font-size: 30px;
+}
+
+.foot__set {
+    width: 112px;
+    margin-top: 30px;
+}
+
+.foot__twit {
+    margin-right: 20px;
+    margin-top: -2px;
+}
+
+.foot__inst {
+    margin-top: -4px;
+    margin-right: 26px;
+}
+
+.foot__face {
+    margin-top: -5px;
+}
