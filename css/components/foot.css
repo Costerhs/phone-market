@@ -1,6 +1,8 @@
 .foot {
     flex-direction: column;
     align-items: center;
+
+    padding-bottom: 127.25px;
 }
 
 .foot__logo {
@@ -28,4 +30,8 @@
 
 .foot__face {
     margin-top: -5px;
+}
+
+.logo {
+    cursor: pointer;
 }

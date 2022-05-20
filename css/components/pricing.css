@@ -78,3 +78,34 @@
     border: 0px;
     border-radius: 4px;
 }
+
+
+.blues__btn {
+    background: #0278ED;
+}
+
+.blues__btn:hover {
+    background: #4794e0;
+}
+
+.lists__btn {
+    background: #FF5437;
+}
+
+.lists__btn:hover {
+    background: #ec7560;
+}
+
+.varied__btn {
+    background: #FF9209;
+}
+
+.varied__btn:hover {
+    background: #eca247;
+}
+
+.blues__btn:active,
+.lists__btn:active,
+.varied__btn:active {
+    transform: scale(0.98);
+}

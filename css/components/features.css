@@ -1,13 +1,15 @@
 .featContainer {
     background-color: #222222;
     border: 1px solid #222222;
+    width: 100%;
 }
 
 .features {
-    margin: 95px 120px;
-
+    margin: 0 auto;
+    padding-top: 95px;
     text-align: center;
     color: #FFFFFF;
+    padding-bottom: 97px;
 }
 
 .title__word {
@@ -26,8 +28,9 @@
 
     width: 1268px;
 
-    margin-top: 45px;
-    margin-left: 16px;
+    margin: 0 auto;
+    padding-top: 43px;
+    padding-left: 49px;
 }
 
 .description__item {
@@ -47,24 +50,18 @@
     color: #0278ED;
 }
 
-.blues__btn {
-    background: #0278ED;
-}
+
+
+
 
 .lists {
     color: #FF5437;
 }
 
-.lists__btn {
-    background: #FF5437;
-}
+
 
 .varied {
     color: #FF9209;
-}
-
-.varied__btn {
-    background: #FF9209;
 }
 
 .split {

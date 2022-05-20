@@ -5,6 +5,9 @@
     background: url(../../img/other/phon.png);
     background-repeat: no-repeat;
     background-size: cover;
+
+    margin-top: 90px;
+
 }
 
 .timer__title {
@@ -26,7 +29,7 @@
     margin: 0 auto;
 }
 
-.timer__time {
+.time {
     width: 100%;
 
     margin-left: 40px;
@@ -37,7 +40,7 @@
     letter-spacing: 1.1px
 }
 
-.timer__time div {
+.time div {
     margin-right: 29px;
 }
 
