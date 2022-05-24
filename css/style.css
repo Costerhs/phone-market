@@ -1,49 +1,19 @@
-@import url('./components/header.css');
-@import url('./components/timer.css');
-@import url('./components/main.css');
-@import url('./components/dark.css');
-@import url('./components/features.css');
-@import url('./components/advantage.css');
-@import url('./components/speed.css');
-@import url('./components/tech.css');
-@import url('./components/pricing.css');
-@import url('./components/testimonials.css');
-@import url('./components/donwload.css');
-@import url('./components/faq.css');
-@import url('./components/foot.css');
+@import url('./module/header.css');
+@import url('./module/timer.css');
+@import url('./module/main.css');
+@import url('./module/dark.css');
+@import url('./module/features.css');
+@import url('./module/advantage.css');
+@import url('./module/speed.css');
+@import url('./module/tech.css');
+@import url('./module/pricing.css');
+@import url('./module/testimonials.css');
+@import url('./module/donwload.css');
+@import url('./module/faq.css');
+@import url('./module/foot.css');
 @import url('overall.css');
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-ul[class],
-ol[class] {
-    padding: 0;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-    margin: 0;
-}
+@import url('./module/formes.css');
+@import url('reset.css');
 
 
 body {

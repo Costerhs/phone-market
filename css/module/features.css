@@ -12,14 +12,16 @@
     padding-bottom: 97px;
 }
 
-.title__word {
+.features__word {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-.title__text {
+.features__text {
     margin-top: 4px;
     line-height: 36px;
+
+    font-size: 32px;
 }
 
 .features__description {
@@ -82,13 +84,13 @@
 
 }
 
-.phoneImg {
+.description__phone-img {
     margin: 0 auto;
     margin-top: 40px;
     width: 227px;
 }
 
-.calendarImg {
+.description__calendar-img {
     width: 64px;
     margin: 0 auto;
     margin-top: -32px;

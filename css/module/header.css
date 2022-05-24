@@ -34,6 +34,10 @@
     cursor: pointer;
 }
 
+.nav a {
+    text-decoration: none;
+}
+
 .btnApp {
     width: 172px;
     height: 40px;

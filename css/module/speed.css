@@ -1,4 +1,7 @@
-.techContainer {
+.speedSecurityContainer {
+    background: #F2F2F2;
+    overflow: hidden;
+
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -7,18 +10,20 @@
     width: 100%;
 }
 
-.tech {
+.speedSecurity {
     margin: 100px 0px;
     height: 444px;
+
 }
 
-.tech__text {
-    margin-top: 75px;
+.speedSecurity__text {
+    margin-left: 197px;
+    margin-top: 77px;
 
     width: 403px;
 }
 
-.tech__underTitle {
+.speedSecurity__underTitle {
     line-height: 20px;
 
     letter-spacing: 2px;
@@ -27,7 +32,7 @@
     color: #222222;
 }
 
-.tech__title {
+.speedSecurity__title {
     line-height: 36px;
 
     color: #222222;
@@ -35,16 +40,19 @@
     margin-top: 5px;
 }
 
-.tech__subtitle {
+.speedSecurity__subtitle {
     margin-top: 15px;
+
+
     font-size: 16px;
     line-height: 24px;
+
+
+
     color: #666666;
 }
 
 
-.tech__img__phone {
+.speedSecurity__phone__img {
     width: 376px;
-
-    margin-left: 210px;
 }

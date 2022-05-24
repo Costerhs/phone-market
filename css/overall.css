@@ -1,9 +1,9 @@
 .pricing__underTitle,
 .testimonials__underTitle,
 .dark__underTitle,
-.sun,
-.moon,
-.title__word,
+.toggleMode__sun,
+.toggleMode__moon,
+.features__title__word,
 .btnApp,
 .main__btn,
 .cart__subtitle,
@@ -20,18 +20,18 @@
 .testimonials__title,
 .download__title,
 .dark__title,
-.title__text,
+.features__title__text,
 .speedSecurity__title,
 .tech__title {
     font-size: 32px;
 }
 
-.advanItem__title,
-.advanItem__subtitle,
+.advantage__item__title,
+.advantage__item__subtitle,
 .dark__title,
-.title__word,
+.features__title__word,
 .description__title,
-.title__text,
+.features__title__text,
 .description__subtitle,
 .nav p,
 .btnApp,
@@ -44,7 +44,7 @@
 .tech__underTitle,
 .tech__title,
 .tech__subtitle,
-.time {
+.timer__time {
     font-weight: 400;
 }
 
@@ -69,13 +69,13 @@
 .header,
 .header__menu,
 .main,
-.pricing__cart,
+.pricing__carts__item,
 .pricing__carts,
 .speedSecurity,
 .tech,
 .testimonials__set,
 .set__cont,
-.time,
+.timer__time,
 .weeks,
 .pricingContainer,
 .testimonialsContainer {
