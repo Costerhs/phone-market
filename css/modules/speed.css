@@ -56,3 +56,38 @@
 .speedSecurity__phone__img {
     width: 376px;
 }
+
+@media (max-width:1024px) {
+
+    .speedSecurity__text {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width:778px) {
+    .speedSecurity__phone {
+        overflow: hidden;
+        height: 400px;
+    }
+
+    .speedSecurity {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .speedSecurity__text {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:425px) {
+    .speedSecurity__phone__img {
+        width: 300px;
+    }
+
+    .speedSecurity__text {
+        width: 300px;
+        margin-left: 20px;
+    }
+}

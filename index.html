@@ -15,70 +15,71 @@
 
 <body>
     <div class="boss">
-        <div class="form-container-none">
-
+        <!-- изменить класс -->
+        <div class="form-container--none">
             <div class="form">
                 <img src="img/other/close.svg" alt="er" class="form__close">
                 <div class="form__title">Leave a request for the purchase of goods</div>
-                <input type="name" placeholder="name" class="form__input form__input--margin">
-                <input type="email" placeholder="email" class="form__input">
+                <div class="form__block-input"> <input type="text" placeholder="name"
+                        class="form__input input-type-name form__input--margin">
+                    <span class="error-name"></span>
+                </div>
+                <div class="form__block-input">
+                    <input type="email" placeholder="email" class="form__input input-type-email">
+                    <span class="error-email"></span>
+                </div>
                 <div class="form__plan">
-                    <div class="form__title">Your plan?</div>
+                    <div class="form__title-plan">Your plan?</div>
                     <form>
                         <div class="form__item">
                             <img src="img/other/active.svg" alt="er" class="form__img">
-                            <input type="radio" name="radio" id="standart" class="radio-st">
-                            <label for="standart" class="form__label-standart"><span class="form__word">Standart</span>
+                            <input type="radio" name="radio" id="standart" class="radio-st form__radio">
+                            <label for="standart" class="form__label-standart"><span class="form__word"></span>
                             </label>
                         </div>
 
                         <div class="form__item">
                             <img src="img/other/active.svg" alt="er" class="form__img">
-                            <input type="radio" name="radio" id="premium" class="radio-pre">
-                            <label for="premium" class="form__label-pre"><span class="form__word">Premium</span>
+                            <input type="radio" name="radio" id="premium" class="radio-pre form__radio">
+                            <label for="premium" class="form__label-pre"><span class="form__word"></span>
                             </label>
                         </div>
 
                         <div class="form__item">
                             <img src="img/other/active.svg" alt="er" class="form__img">
-                            <input type="radio" name="radio" id="lifetime" class="radio-life">
-                            <label for="lifetime" class="form__label-life"><span
-                                    class="form__word">Lifetime</span></label>
+                            <input type="radio" name="radio" id="lifetime" class="radio-life form__radio">
+                            <label for="lifetime" class="form__label-life"><span class="form__word"></span></label>
                         </div>
                     </form>
                 </div>
                 <div class="form__worksheet">
                     <div class="form__worksheet__title">How did you know about our app?</div>
 
-
                     <div class="checkbox">
                         <input class="checkbox__input" type="checkbox" id="checkbox_facebook">
-                        <label class="checkbox__label" for="checkbox_facebook">
-                            Facebook
-                        </label>
+                        <label class="checkbox__label" for="checkbox_facebook">Facebook</label>
                     </div>
                     <div class="checkbox">
                         <input class="checkbox__input" type="checkbox" id="checkbox_insta">
-                        <label class="checkbox__label" for="checkbox_insta">
-                            Instagram
-                        </label>
+                        <label class="checkbox__label" for="checkbox_insta">Instagram</label>
                     </div>
                     <div class="checkbox">
                         <input class="checkbox__input" type="checkbox" id="checkbox_youTube">
-                        <label class="checkbox__label" for="checkbox_youTube">
-                            YouTube
-                        </label>
+                        <label class="checkbox__label" for="checkbox_youTube">YouTube</label>
                     </div>
                     <div class="checkbox">
                         <input class="checkbox__input" type="checkbox" id="checkbox_other">
-                        <label class="checkbox__label" for="checkbox_other">
-                            Other
-                        </label>
+                        <label class="checkbox__label" for="checkbox_other">Other</label>
                     </div>
+                    <span class="error-checkbox">this field is required</span>
                 </div>
                 <button class="form__btn"> send</button>
+
+                <div class="loader">
+                    <img src="img/other/watch.svg" alt="er" class="watch-img">
+                    <img src="img/other/loading.svg" alt="er" class="loader__text">
+                </div>
             </div>
-            <div class="form-background"></div>
         </div>
         <header class="header">
             <img src="img/icon/logo&text.png" alt="error" class="header__logo">
@@ -99,6 +100,33 @@
                 </nav>
                 <div>
                     <button type="button" class="btnApp">GET THIS APP</button>
+                </div>
+            </div>
+            <div class="header__door"><label for="openBurger" class="header__checkbox-background"><input type="checkbox"
+                        id="openBurger" class="header__checkbox"></label></div>
+            <div class="header__adaptive-menu">
+                <div class="header-adaptive">
+                    <div class="header__menu-adaptive">
+                        <img src="img/icon/logo&text.png" alt="error" class="header__logo-adaptive">
+
+                        <nav class="nav">
+                            <a href="#features">
+                                <p class="nav__features nav__item">Features</p>
+                            </a>
+                            <a href="#pricing">
+                                <p class="nav__pricing nav__item">Pricing</p>
+                            </a>
+                            <a href="#testimonials">
+                                <p class="nav__testimonials nav__item">Testimonials</p>
+                            </a>
+                            <a href="#faq">
+                                <p class="nav__faq nav__item">FAQ</p>
+                            </a>
+                        </nav>
+                        <div>
+                            <button type="button" class="btnApp">GET THIS APP</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
@@ -128,14 +156,12 @@
                         <div class="timer__weeks-seconds">Seconds</div>
                     </div>
 
-
                 </div>
             </div>
 
         </div>
         <div class="mainContainer">
             <div class="main">
-                <!---изменить название класса---->
                 <div class="main__description">
                     <div class="main__logo">
 
@@ -323,13 +349,13 @@
         </div>
         <div class="dark">
             <div class="darkContainer">
-                <div class="dark__underTitle">
+                <div class="dark__underTitle dark-text">
                     dark mode
                 </div>
-                <div class="dark__title">
+                <div class="dark__title dark-text">
                     Also available in <span class="mode">dark</span>
                 </div>
-                <div class="dark__subtitle">
+                <div class="dark__subtitle dark-text">
                     Dont`t get blinded when using the H(app)y app at night, just turn off the
                     lights. Lorem ipsum dolor sit amet
                 </div>
@@ -362,22 +388,22 @@
                 </div>
                 <div class="pricing__carts">
                     <div class="pricing__item">
-                        <div class="pricing__item__underTitle pricing__item__standart">Standard</div>
-                        <div class="pricing__item__title pricing__item__standart">$9</div>
+                        <div class="pricing__item__underTitle pricing__item__cheap"></div>
+                        <div class="pricing__item__title pricing__item__cheap"></div>
                         <div class="pricing__item__subtitle">monthly</div>
                         <button type="button" class="pricing__item__button pricing__item__button--blues">buy
                             now</button>
                     </div>
                     <div class="pricing__item">
-                        <div class="pricing__item__underTitle pricing__item__premium">Premium</div>
-                        <div class="pricing__item__title pricing__item__premium">$99</div>
+                        <div class="pricing__item__underTitle pricing__item__normal"></div>
+                        <div class="pricing__item__title pricing__item__normal"></div>
                         <div class="pricing__item__subtitle">annualy</div>
                         <button type="button" class="pricing__item__button pricing__item__button--lists">buy
                             now</button>
                     </div>
                     <div class="pricing__item">
-                        <div class="pricing__item__underTitle pricing__item__lifetime">Lifetime</div>
-                        <div class="pricing__item__title pricing__item__lifetime">$149</div>
+                        <div class="pricing__item__underTitle pricing__item__expensive"></div>
+                        <div class="pricing__item__title pricing__item__expensive"></div>
                         <div class="pricing__item__subtitle">up front</div>
                         <button type="button" class="pricing__item__button pricing__item__button--varied">buy
                             now</button>
@@ -398,51 +424,7 @@
                     See what our customers are saying.
                 </div>
                 <div class="testimonials__set">
-                    <div class="set__cart">
-                        <div class="set__cont">
-                            <div class="set__title">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
-                                elementum tristique. Duis cursus.
-                            </div>
-                            <div class="set__allSubtitle">
-                                <div class="set__firstSubtitle">Pom Beesly</div>
-                                <div class="set__secondSubtitle">top Manager Happy Co </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="set__cart">
-                        <div class="set__cont">
-                            <div class="set__title">
-                                Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.
-                                Aenean porta neque eget consequat fringilla.
-                            </div>
-                            <div class="set__allSubtitle">
-                                <div class="set__firstSubtitle">
-                                    Michael Scott
-                                </div>
-                                <div class="set__secondSubtitle">
-                                    SMM Specialist
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="set__cart">
-                        <div class="set__cont">
-                            <div class="set__title">
-                                Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor
-                                sapien leo nec purus.
-                            </div>
-                            <div class="set__allSubtitle">
-                                <div class="set__firstSubtitle">
-                                    Angels Schrute
-                                </div>
-                                <div class="set__secondSubtitle">
-                                    CEO and CoFounder
-                                </div>
-                            </div>
 
-                        </div>
-                    </div>
                 </div>
 
             </div>
@@ -459,7 +441,7 @@
                     Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.
                 </div>
                 <div class="download__logo">
-                    <a href="https://www.apple.com/ru/app-store/" target="_blank">
+                    <a href="" target="_blank" class='download__appStore'>
                         <img src="img/other/appStoreLogo.png" alt="er" class="appStore">
                     </a>
                 </div>

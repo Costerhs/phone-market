@@ -52,3 +52,15 @@
     line-height: 24px;
     color: #222222;
 }
+
+@media (max-width:1168px) {
+    .faqContainer {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width:425px) {
+    .faqContainer {
+        padding-left: 20px;
+    }
+}

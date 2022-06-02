@@ -1,6 +1,12 @@
 .dark {
     background: #222222;
     width: 100%;
+
+    transition: 0.5s;
+}
+
+.light {
+    width: 100%;
 }
 
 .darkContainer {
@@ -46,7 +52,7 @@
 }
 
 .dark__phone {
-    width: 600px;
+    width: auto;
     border-bottom: 1px solid white;
     margin-bottom: 43px;
 }

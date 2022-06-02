@@ -1,24 +1,7 @@
-const form = () => {
-    function toggleClassForm(event) {
-        form.classList.toggle('formContainer');
-        form.classList.toggle('form-container-none');
-
-        if (event === 'premium') {
-            formBtnPremium.checked = true
-        } else if (event === 'standart') {
-            formBtnStandart.checked = true
-        } else {
-            formBtnLife.checked = true
-        }
-    }
-
+const openCloseForm = () => {
     let btnInHeader = document.querySelector('.btnApp');
-    let form = document.querySelector('.form-container-none');
+    let form = document.querySelector('.form-container--none');
     let formClose = document.querySelector('.form__close');
-
-    let formBtnStandart = document.querySelector('#standart');
-    let formBtnPremium = document.querySelector('#premium');
-    let formBtnLife = document.querySelector('#lifetime');
 
     let mainBtn = document.querySelector('.main__btn');
 
@@ -26,12 +9,25 @@ const form = () => {
     let premiumBtn = document.querySelector('.pricing__item__button--lists');
     let lifetimeBtn = document.querySelector('.pricing__item__button--varied');
 
-    btnInHeader.addEventListener('click', toggleClassForm);
-    formClose.addEventListener('click', toggleClassForm.bind(this, -1));
-    mainBtn.addEventListener('click', toggleClassForm);
-    standartBtn.addEventListener('click', toggleClassForm.bind(this, 'standart'));
-    premiumBtn.addEventListener('click', toggleClassForm.bind(this, 'premium'));
-    lifetimeBtn.addEventListener('click', toggleClassForm.bind(this, 'lifetime'));
+
+    function toggleClassFormWithChooseRadio(event) {
+        form.classList.toggle('formContainer');
+        form.classList.toggle('form-container--none');
+
+        precheckPlan(event);
+    }
+    function precheckPlan(name) {
+        let checkbox = document.getElementById(`${name}`) || document.getElementById('lifetime');
+        checkbox.checked = true;
+    }
+
+    btnInHeader.addEventListener('click', toggleClassFormWithChooseRadio.bind(this, 'lifetime'));
+    formClose.addEventListener('click', toggleClassFormWithChooseRadio);
+    mainBtn.addEventListener('click', toggleClassFormWithChooseRadio.bind(this, 'lifetime'));
+    standartBtn.addEventListener('click', toggleClassFormWithChooseRadio.bind(this, 'standart'));
+    premiumBtn.addEventListener('click', toggleClassFormWithChooseRadio.bind(this, 'premium'));
+    lifetimeBtn.addEventListener('click', toggleClassFormWithChooseRadio.bind(this, 'lifetime'));
 }
 
-export default form;
+export default openCloseForm;
+

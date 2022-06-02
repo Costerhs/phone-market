@@ -1,18 +1,18 @@
-@import url('./module/header.css');
-@import url('./module/timer.css');
-@import url('./module/main.css');
-@import url('./module/dark.css');
-@import url('./module/features.css');
-@import url('./module/advantage.css');
-@import url('./module/speed.css');
-@import url('./module/tech.css');
-@import url('./module/pricing.css');
-@import url('./module/testimonials.css');
-@import url('./module/donwload.css');
-@import url('./module/faq.css');
-@import url('./module/foot.css');
+@import url('./modules/header.css');
+@import url('./modules/timer.css');
+@import url('./modules/main.css');
+@import url('./modules/dark.css');
+@import url('./modules/features.css');
+@import url('./modules/advantage.css');
+@import url('./modules/speed.css');
+@import url('./modules/tech.css');
+@import url('./modules/pricing.css');
+@import url('./modules/testimonials.css');
+@import url('./modules/donwload.css');
+@import url('./modules/faq.css');
+@import url('./modules/foot.css');
 @import url('overall.css');
-@import url('./module/formes.css');
+@import url('./modules/formes.css');
 @import url('reset.css');
 
 
@@ -97,8 +97,7 @@ select {
 }
 
 .pricing__subtitle,
-.testimonials__subtitle,
-.download__subtitle {
+.testimonials__subtitle {
     font-size: 18px;
     line-height: 24px;
 
@@ -109,4 +108,29 @@ select {
     width: 600px;
 
     margin-top: 14px;
+}
+
+@media (max-width:768px) {
+
+    .pricing__subtitle,
+    .testimonials__subtitle,
+    .dark__subtitle {
+        width: 400px;
+    }
+}
+
+@media (max-width:425px) {
+
+    .pricing__subtitle,
+    .dark__subtitle,
+    .testimonials__subtitle {
+        width: 290px;
+    }
+
+    .pricing__title,
+    .testimonials__title,
+    .download__title {
+        font-size: 24px;
+
+    }
 }

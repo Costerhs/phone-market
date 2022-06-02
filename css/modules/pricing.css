@@ -1,8 +1,11 @@
 .pricing__carts {
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
     margin-top: 41px;
     margin-bottom: 100px;
+
 }
 
 .pricing__item {
@@ -112,14 +115,31 @@
     transform: scale(0.98);
 }
 
-.pricing__item__standart {
+.pricing__item__cheap {
     color: #0278ED;
 }
 
-.pricing__item__premium {
+.pricing__item__normal {
     color: #FF5437;
 }
 
-.pricing__item__lifetime {
+.pricing__item__expensive {
     color: #FF9209;
+}
+
+@media (max-width:1024px) {
+
+    /* .pricing__carts .pricing__item:last-child {
+        margin-top: 16px;
+    } */
+    .pricing__item {
+        margin-bottom: 16px;
+    }
+}
+
+@media(max-width:425px) {
+    .pricing__item {
+        width: 280px;
+        margin-left: 20px;
+    }
 }

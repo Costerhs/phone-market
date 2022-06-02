@@ -21,3 +21,28 @@
 .appStore {
     margin-top: 25px;
 }
+
+.download__subtitle {
+    font-size: 18px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #666666;
+
+    width: 600px;
+
+    margin-top: 14px;
+}
+
+@media (max-width:768px) {
+    .download__subtitle {
+        width: 400px;
+    }
+}
+
+@media (max-width:425px) {
+    .download__subtitle {
+        width: 300px;
+    }
+}

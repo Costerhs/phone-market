@@ -10,6 +10,8 @@
 .tech {
     margin: 100px 0px;
     height: 444px;
+
+    flex-wrap: wrap;
 }
 
 .tech__text {
@@ -47,4 +49,43 @@
     width: 376px;
 
     margin-left: 210px;
+}
+
+@media (max-width:1024px) {
+
+
+    .tech__phone__img {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width:778px) {
+
+    /* .tech__phone__img {
+        margin-left: 10px;
+    } */
+    .tech {
+        height: 800px;
+
+        /* padding-left: 20%; */
+        justify-content: center;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .tech__phone__img {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+
+}
+
+@media (max-width:425px) {
+    .tech__phone__img {
+        width: 240px;
+    }
+
+    .tech__text {
+        width: 300px;
+    }
 }

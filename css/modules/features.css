@@ -28,11 +28,13 @@
     flex-wrap: wrap;
     color: black;
 
-    width: 1268px;
+    width: 100%;
 
     margin: 0 auto;
     padding-top: 43px;
-    padding-left: 49px;
+    padding-left: 10px;
+
+    justify-content: center;
 }
 
 .description__item {
