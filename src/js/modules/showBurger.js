@@ -17,8 +17,9 @@ function showBurger() {
     });
     navItem.forEach(el => {
         el.addEventListener('click', function () {
-            block.style.right = '-800px',
-                checkboxBackground.classList.toggle('header__checkbox-background-on');
+            checkbox.checked = false
+            block.style.right = '-800px';
+            checkboxBackground.classList.toggle('header__checkbox-background-on');
             checkboxBackground.classList.toggle('header__checkbox-background-off');
         })
     })
