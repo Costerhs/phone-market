@@ -1,9 +1,20 @@
 function setLink(data) {
-  let appStore = document.querySelector('.download__appStore');
-  let btnApp = document.querySelectorAll('.link');
+  let appStore = document.querySelector('.btnApp');
+  let btnLink = document.querySelectorAll('.block-link');
 
-  btnApp.forEach(el => {
-    el.href = data.appStoreLink;
+  btnLink.forEach(el => {
+    let btn = document.createElement('button');
+    let link = document.createElement('a');
+
+    btn.classList.add('btnApp');
+    link.classList.add('link');
+
+    link.href = data.appStoreLink;
+    link.target = '__blank'
+    btn.textContent = 'GET THIS APP'
+
+    link.append(btn);
+    el.append(link)
   })
   appStore.href = data.appStoreLink;
 }
