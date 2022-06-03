@@ -1,4 +1,5 @@
 .pricing__carts {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -8,6 +9,10 @@
 
 .pricing__underTitle {
     font-size: 14px;
+}
+
+.pricingContainer {
+    display: flex;
 }
 
 .pricing__item {
@@ -48,6 +53,7 @@
 }
 
 .pricing__title {
+    font-size: 32px;
     margin-top: 5px;
 }
 

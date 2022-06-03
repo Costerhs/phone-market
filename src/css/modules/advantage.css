@@ -5,6 +5,7 @@
 }
 
 .advantage {
+    display: flex;
     justify-content: space-between;
     margin-left: 199px;
     margin-right: 224px;

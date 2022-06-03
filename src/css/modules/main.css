@@ -1,4 +1,5 @@
 .main {
+    display: flex;
     height: auto;
     padding-top: 93px;
     margin-left: -93px;
@@ -40,6 +41,8 @@
 }
 
 .main__btn {
+    font-size: 14px;
+    font-weight: 400;
     width: 148px;
     height: 40px;
     background: #222222;

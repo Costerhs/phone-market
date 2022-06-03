@@ -11,24 +11,19 @@
 @import url('./modules/donwload.css');
 @import url('./modules/faq.css');
 @import url('./modules/foot.css');
-@import url('overall.css');
 @import url('./modules/formes.css');
 @import url('reset.css');
 
-
-
-
-
-
-button:focus {
-    border: #5AB0FF;
+.btnApp:focus,
+.pricing__item__button:focus,
+.main__btn:focus {
+    outline: 2px solid #5AB0FF;
 }
 
 .boss {
     width: 100%;
     height: auto;
 }
-
 
 .pricing,
 .testimonials {
@@ -39,19 +34,15 @@ button:focus {
 .testimonialsContainer {
     flex-direction: column;
     align-items: center;
-
     padding-top: 100px;
 }
 
 .pricing__underTitle,
 .testimonials__underTitle {
-
     line-height: 20px;
-
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-
     color: #222222;
 }
 
@@ -59,25 +50,17 @@ button:focus {
 .testimonials__title,
 .download__title {
     line-height: 36px;
-
     text-align: center;
-
     color: #222222;
-
-
 }
 
 .pricing__subtitle,
 .testimonials__subtitle {
     font-size: 18px;
     line-height: 24px;
-
     text-align: center;
-
     color: #666666;
-
     width: 600px;
-
     margin-top: 14px;
 }
 
