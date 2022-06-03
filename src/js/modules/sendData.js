@@ -17,7 +17,11 @@ const sendData = () => {
         form.classList.toggle('formContainer');
         form.classList.toggle('form-container--none');
     }
-
+    function resetForm() {
+        name.value = '';
+        email.value = '';
+        checkboxes.forEach(el => el.checked = false)
+    }
     formBtn.addEventListener('click', function () {
         let data = { name: '', email: '', howDidKnow: [], plan: '' };
         let isChecked = false;
@@ -32,7 +36,8 @@ const sendData = () => {
             setTimeout(() => {
                 loader.style.display = 'none';
                 console.log(data);
-                toggleClassForm()
+                toggleClassForm();
+                resetForm()
             }, 2000);
         }
     });

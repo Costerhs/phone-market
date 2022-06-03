@@ -7,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -15,8 +14,7 @@
 
 <body>
     <div class="boss">
-        <!-- изменить класс -->
-        <div class="form-container--none">
+        <div class="form-container--none form-bg">
             <div class="form">
                 <img src="img/other/close.svg" alt="er" class="form__close">
                 <div class="form__title">Leave a request for the purchase of goods</div>
@@ -33,22 +31,24 @@
                     <form>
                         <div class="form__item">
                             <img src="img/other/active.svg" alt="er" class="form__img">
-                            <input type="radio" name="radio" id="standart" class="radio-st form__radio">
-                            <label for="standart" class="form__label-standart"><span class="form__word"></span>
+                            <input type="radio" name="radio" id="standart" class="form__radio radio-st form__radio">
+                            <label for="standart" class="form__label form__label-standart"><span
+                                    class="form__word"></span>
                             </label>
                         </div>
 
                         <div class="form__item">
                             <img src="img/other/active.svg" alt="er" class="form__img">
-                            <input type="radio" name="radio" id="premium" class="radio-pre form__radio">
-                            <label for="premium" class="form__label-pre"><span class="form__word"></span>
+                            <input type="radio" name="radio" id="premium" class="form__radio radio-pre form__radio">
+                            <label for="premium" class="form__label form__label-pre"><span class="form__word"></span>
                             </label>
                         </div>
 
                         <div class="form__item">
                             <img src="img/other/active.svg" alt="er" class="form__img">
-                            <input type="radio" name="radio" id="lifetime" class="radio-life form__radio">
-                            <label for="lifetime" class="form__label-life"><span class="form__word"></span></label>
+                            <input type="radio" name="radio" id="lifetime" class="form__radio radio-life form__radio">
+                            <label for="lifetime" class="form__label form__label-life"><span
+                                    class="form__word"></span></label>
                         </div>
                     </form>
                 </div>
@@ -99,10 +99,13 @@
                     </a>
                 </nav>
                 <div>
-                    <button type="button" class="btnApp">GET THIS APP</button>
+                    <a class="link" target="_blank">
+                        <button type="button" class="btnApp">GET THIS APP</button>
+                    </a>
                 </div>
             </div>
-            <div class="header__door"><label for="openBurger" class="header__checkbox-background"><input type="checkbox"
+            <div class="header__door"><label for="openBurger"
+                    class="header__checkbox-background header__checkbox-background-on"><input type="checkbox"
                         id="openBurger" class="header__checkbox"></label></div>
             <div class="header__adaptive-menu">
                 <div class="header-adaptive">
@@ -124,7 +127,9 @@
                             </a>
                         </nav>
                         <div>
-                            <button type="button" class="btnApp">GET THIS APP</button>
+                            <a class="link" target="_blank">
+                                <button type="button" class="btnApp">GET THIS APP</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -349,13 +354,13 @@
         </div>
         <div class="dark">
             <div class="darkContainer">
-                <div class="dark__underTitle dark-text">
+                <div class="dark__underTitle dark__text">
                     dark mode
                 </div>
-                <div class="dark__title dark-text">
+                <div class="dark__title dark__text">
                     Also available in <span class="mode">dark</span>
                 </div>
-                <div class="dark__subtitle dark-text">
+                <div class="dark__subtitle dark__text">
                     Dont`t get blinded when using the H(app)y app at night, just turn off the
                     lights. Lorem ipsum dolor sit amet
                 </div>
@@ -524,7 +529,6 @@
         </footer>
     </div>
 
-    <!-- <script type="module" src="js/index.js"></script> -->
 </body>
 
 </html>

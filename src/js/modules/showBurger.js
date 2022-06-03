@@ -7,15 +7,19 @@ function showBurger() {
     checkbox.addEventListener('click', function () {
         if (checkbox.checked === true) {
             block.style.right = '0px';
-            checkboxBackground.style.background = 'url(./img/other/close.svg) no-repeat'
+            checkboxBackground.classList.toggle('header__checkbox-background-on');
+            checkboxBackground.classList.toggle('header__checkbox-background-off');
         } else {
             block.style.right = '-800px';
-            checkboxBackground.style.background = 'url(./img/other/open.svg) no-repeat'
+            checkboxBackground.classList.toggle('header__checkbox-background-on');
+            checkboxBackground.classList.toggle('header__checkbox-background-off');
         }
     });
     navItem.forEach(el => {
         el.addEventListener('click', function () {
-            block.style.right = '-800px'
+            block.style.right = '-800px',
+                checkboxBackground.classList.toggle('header__checkbox-background-on');
+            checkboxBackground.classList.toggle('header__checkbox-background-off');
         })
     })
 }

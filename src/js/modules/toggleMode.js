@@ -1,13 +1,10 @@
 const toggleClass = () => {
     let dark = document.querySelector('.dark');
-    let darkTitle = document.querySelector('.dark__title');
-    let darkUnderTitle = document.querySelector('.dark__underTitle');
-    let darkSubtitle = document.querySelector('.dark__subtitle');
+    let darkText = document.querySelectorAll('.dark__text')
+    let undertitle = document.querySelector('.dark__underTitle')
     let modeName = document.querySelector('.mode')
     let sun = document.querySelector('.toggleMode__sun');
     let moon = document.querySelector('.toggleMode__moon');
-
-    let tes = document.querySelectorAll('.dark-text');
 
     let sunImg = document.querySelector('.toggleMode__sun__img')
     let moonImg = document.querySelector('.toggleMode__moon__img')
@@ -16,10 +13,9 @@ const toggleClass = () => {
 
     sun.addEventListener('click', function () {
         dark.style.background = 'white'
-        darkSubtitle.style.color = '#222222'
-        darkTitle.style.color = '#222222'
-        darkUnderTitle.style.color = '#222222'
+        darkText.forEach(el => el.style.color = '#222222')
 
+        undertitle.textContent = 'LIGHT MODE'
         modeName.textContent = 'light'
 
         moonImg.src = 'img/icon/darkMoon.svg'
@@ -29,10 +25,9 @@ const toggleClass = () => {
     });
     moon.addEventListener('click', function () {
         dark.style.background = '#222222'
-        darkSubtitle.style.color = 'white'
-        darkTitle.style.color = 'white'
-        darkUnderTitle.style.color = 'white'
+        darkText.forEach(el => el.style.color = 'white')
 
+        undertitle.textContent = 'DARK MODE'
         modeName.textContent = 'dark'
 
         moonImg.src = 'img/icon/orangeMoon.svg'

@@ -80,11 +80,27 @@
 
 .header__checkbox-background {
     display: block;
-    background: url(../../img/other/open.svg) no-repeat;
     margin-right: 20px;
     width: 20px;
     height: 20px;
-    transition: background 1s;
+}
+
+.header__checkbox-background-off {
+    background: url(../../img/other/close.svg) no-repeat;
+}
+
+.header__checkbox-background-on {
+
+    background: url(../../img/other/open.svg) no-repeat;
+}
+
+.header__checkbox-background-on:hover {
+    background: url(../../img/other/hoverBtnMenu.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    background-size: 36px;
+    margin-top: -10px;
+    margin-right: 14px;
 }
 
 .header__menu-adaptive {

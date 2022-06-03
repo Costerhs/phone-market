@@ -5,29 +5,26 @@ function dateRender(linkToTime, count) {
 function zero(str) {
     return String(str).padStart(2, '0')
 }
-
+function formattingDate(times) {
+    let date = times.split(' ')
+    let [dateArr, time] = [date[0].split('.'), date[1].split(':')];
+    let lastYears = dateArr[2];
+    let lastMonth = dateArr[1] - 1;
+    let lastDays = dateArr[0];
+    let lastHours = time[0];
+    let lastMinutes = time[1];
+    return new Date(lastYears, lastMonth, lastDays, lastHours, lastMinutes);
+}
 const timer = (times) => {
     let day = document.querySelector('.timer__day');
     let houres = document.querySelector('.timer__hours');
     let minutes = document.querySelector('.timer__minutes');
     let seconds = document.querySelector('.timer__seconds');
 
-    let timeBeforeEnd = times.split(' ')
-
-    // let timeBeforeEnd = "25.06.2022 18:05".split(' ');
-
-    let [dateArr, time] = [timeBeforeEnd[0].split('.'), timeBeforeEnd[1].split(':')];
-    let lastYears = dateArr[2];
-    let lastMonth = dateArr[1] - 1;
-    let lastDays = dateArr[0];
-    let lastHours = time[0];
-    let lastMinutes = time[1];
-    let enDate = new Date(lastYears, lastMonth, lastDays, lastHours, lastMinutes);
-
+    let enDate = formattingDate(times)
 
     setInterval(() => {
         let actualDate = new Date();
-
 
         let allSeconds = (enDate - actualDate) / 1000;
         let dayDiff = zero(Math.floor(allSeconds / 60 / 60 / 24));

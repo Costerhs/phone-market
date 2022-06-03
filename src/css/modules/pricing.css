@@ -108,7 +108,7 @@
     color: #FF9209;
 }
 
-@media (max-width:1024px) {
+@media (max-width:1203px) {
     .pricing__item {
         margin-bottom: 16px;
     }

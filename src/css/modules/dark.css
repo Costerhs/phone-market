@@ -8,6 +8,22 @@
     width: 100%;
 }
 
+.dark__text--dark {
+    color: #222222;
+}
+
+.dark__text--light {
+    color: #ffffff;
+}
+
+.dark__bg--dark {
+    background-color: #222222;
+}
+
+.dark__bg--light {
+    background-color: #ffffff;
+}
+
 .darkContainer {
     display: flex;
     flex-direction: column;
