@@ -2,32 +2,29 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
     margin-top: 41px;
     margin-bottom: 100px;
+}
 
+.pricing__underTitle {
+    font-size: 14px;
 }
 
 .pricing__item {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     background: #F2F2F2;
     border-radius: 20px;
-
     width: 379px;
     height: 338px;
-
     margin-right: 16px;
 }
 
 .pricing__item__underTitle {
     font-size: 18px;
     line-height: 24px;
-
     text-align: center;
-
     margin-top: 47px;
 }
 
@@ -35,26 +32,18 @@
     margin-top: -13px;
     margin-left: 20px;
     margin-bottom: 24px;
-
     font-size: 108px;
     line-height: 124px;
-
     text-align: center;
     letter-spacing: 8px;
-
-
 }
-
 
 .pricing__item__subtitle {
     line-height: 20px;
-
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-
     color: #222222;
-
     margin-left: 22px;
 }
 
@@ -65,21 +54,13 @@
 .pricing__item__button {
     width: 129px;
     height: 40px;
-
     margin-top: 20px;
     margin-left: 14px;
-
-
-
     line-height: 18px;
-
-
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-
     color: #FFFFFF;
-
     border: 0px;
     border-radius: 4px;
 }
@@ -128,10 +109,6 @@
 }
 
 @media (max-width:1024px) {
-
-    /* .pricing__carts .pricing__item:last-child {
-        margin-top: 16px;
-    } */
     .pricing__item {
         margin-bottom: 16px;
     }

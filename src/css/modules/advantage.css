@@ -6,16 +6,13 @@
 
 .advantage {
     justify-content: space-between;
-
     margin-left: 199px;
     margin-right: 224px;
     padding-top: 52px;
     padding-bottom: 100px;
 }
 
-
 .advantage__title {
-
     font-size: 96px;
     color: white;
     margin-bottom: -1px;
@@ -23,7 +20,6 @@
 
 .advantage__subtitle {
     text-align: center;
-
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -34,7 +30,6 @@
     .advantage {
         margin-left: 60px;
         margin-right: 60px;
-
         justify-content: center;
         flex-wrap: wrap;
     }

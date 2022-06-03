@@ -2,16 +2,12 @@
     width: 100%;
     height: 90px;
     background: #ffffff;
-
     margin: 0 auto;
     justify-content: space-between;
-
     padding-left: 8%;
     padding-right: 8%;
-
     position: fixed;
     top: 0;
-
     box-shadow: -2px 11px 17px -5px rgba(34, 60, 80, 0.26);
 }
 
@@ -30,11 +26,9 @@
     display: flex;
 }
 
-
 .header__logo {
     margin: 25px 0;
     margin-left: 32px;
-
     cursor: pointer;
 }
 
@@ -45,10 +39,8 @@
 .nav p {
     margin: 33px 0px;
     margin-right: 42px;
-
     font-size: 15px;
     color: #666666;
-
     cursor: pointer;
 }
 
@@ -59,15 +51,14 @@
 .btnApp {
     width: 172px;
     height: 40px;
-
     background: #222222;
     border: 0px;
     border-radius: 4px;
-
     color: white;
     letter-spacing: 2px;
-
     margin: 25px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .btnApp:hover {
@@ -99,9 +90,7 @@
 .header__menu-adaptive {
     display: flex;
     flex-direction: column;
-
     align-items: center;
-
     padding-top: 100px;
 }
 
@@ -116,23 +105,18 @@
 
     .header__door {
         display: block;
-
         margin-top: 30px;
         padding-right: 20px;
-
         position: relative;
         z-index: 20;
     }
 
     .header__adaptive-menu {
         display: block;
-
         width: 100%;
         height: 1000px;
         position: absolute;
-
         background-color: white;
-
         right: -800px;
         transition: right 1s;
     }
@@ -142,7 +126,6 @@
     }
 
     .nav p {
-
         margin: 0 auto;
         margin-top: 18px;
     }

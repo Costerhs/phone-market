@@ -1,13 +1,4 @@
-.pricing__underTitle,
-.testimonials__underTitle,
-.dark__underTitle,
-.toggleMode__sun,
-.toggleMode__moon,
-.features__title__word,
-.btnApp,
 .main__btn,
-.cart__subtitle,
-.cart__button,
 .speedSecurity__underTitle,
 .tech__underTitle,
 .set__secondSubtitle,
@@ -17,10 +8,7 @@
 
 .faq__title,
 .pricing__title,
-.testimonials__title,
 .download__title,
-.dark__title,
-.features__title__text,
 .speedSecurity__title,
 .tech__title {
     font-size: 32px;
@@ -34,7 +22,6 @@
 .features__title__text,
 .description__subtitle,
 .nav p,
-.btnApp,
 .main__title,
 .main__btn,
 .main__text,
@@ -53,12 +40,9 @@
 .weeks div,
 .timer__subtitle {
     font-weight: 700;
-
 }
 
 .advantage,
-.toggleMode,
-.darkContainer,
 .downloadContainer,
 .faqContainer,
 .faq__set,
@@ -67,17 +51,14 @@
 .foot,
 .nav,
 .header,
-
 .main,
 .pricing__carts__item,
 .pricing__carts,
 .speedSecurity,
 .tech,
-.testimonials__set,
 .set__cont,
 .timer__time,
 .weeks,
-.pricingContainer,
-.testimonialsContainer {
+.pricingContainer {
     display: flex;
 }

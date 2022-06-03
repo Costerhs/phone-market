@@ -6,16 +6,13 @@
     padding-left: 136px;
     padding-top: 105px;
     padding-bottom: 66px;
-
     flex-direction: column;
 }
-
 
 .faq__title {
     line-height: 36px;
     text-transform: uppercase;
     color: #222222;
-
     margin-bottom: 12px;
 }
 
@@ -34,7 +31,6 @@
 
 .faq__cart {
     width: 576px;
-
     margin-bottom: 25px;
     margin-right: 18px;
 }
@@ -43,7 +39,6 @@
     font-size: 18px;
     line-height: 28px;
     color: #222222;
-
     margin-bottom: 10px;
 }
 

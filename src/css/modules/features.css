@@ -12,6 +12,15 @@
     padding-bottom: 97px;
 }
 
+.features__title__word {
+    font-size: 14px;
+}
+
+.features__title__text {
+    font-size: 32px;
+    font-weight: 400;
+}
+
 .features__word {
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -25,44 +34,32 @@
 }
 
 .features__description {
+    display: flex;
     flex-wrap: wrap;
     color: black;
-
     width: 100%;
-
     margin: 0 auto;
     padding-top: 43px;
     padding-left: 10px;
-
     justify-content: center;
 }
 
 .description__item {
     width: 379px;
     height: 490px;
-
     background-color: white;
     border-radius: 20px;
-
     margin-right: 16px;
     margin-bottom: 16px;
 }
-
-
 
 .blues {
     color: #0278ED;
 }
 
-
-
-
-
 .lists {
     color: #FF5437;
 }
-
-
 
 .varied {
     color: #FF9209;
@@ -83,7 +80,6 @@
 .description__phone {
     height: 293px;
     overflow: hidden;
-
 }
 
 .description__phone-img {
@@ -107,7 +103,6 @@
 .description__subtitle {
     width: 286px;
     margin: 0 auto;
-
     font-size: 15px;
     color: #222222;
 }

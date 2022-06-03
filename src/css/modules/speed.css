@@ -1,54 +1,41 @@
 .speedSecurityContainer {
     background: #F2F2F2;
     overflow: hidden;
-
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     width: 100%;
 }
 
 .speedSecurity {
     margin: 100px 0px;
     height: 444px;
-
 }
 
 .speedSecurity__text {
     margin-left: 197px;
     margin-top: 77px;
-
     width: 403px;
 }
 
 .speedSecurity__underTitle {
     line-height: 20px;
-
     letter-spacing: 2px;
     text-transform: uppercase;
-
     color: #222222;
 }
 
 .speedSecurity__title {
     line-height: 36px;
-
     color: #222222;
-
     margin-top: 5px;
 }
 
 .speedSecurity__subtitle {
     margin-top: 15px;
-
-
     font-size: 16px;
     line-height: 24px;
-
-
-
     color: #666666;
 }
 
@@ -58,7 +45,6 @@
 }
 
 @media (max-width:1024px) {
-
     .speedSecurity__text {
         margin-left: 70px;
     }

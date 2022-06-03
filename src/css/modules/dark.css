@@ -1,7 +1,6 @@
 .dark {
     background: #222222;
     width: 100%;
-
     transition: 0.5s;
 }
 
@@ -10,29 +9,29 @@
 }
 
 .darkContainer {
+    display: flex;
     flex-direction: column;
     align-items: center;
-
     padding-top: 99px;
     padding-bottom: 160px;
 }
 
 .dark__underTitle {
+    font-size: 14px;
     line-height: 20px;
-
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 
 .dark__title {
+    font-size: 32px;
     line-height: 36px;
     text-align: center;
     color: #FFFFFF;
-
     margin-top: 5px;
+    font-weight: 400;
 }
 
 .mode,
@@ -45,9 +44,7 @@
     line-height: 24px;
     text-align: center;
     color: #ffffff;
-
     width: 600px;
-
     margin-top: 14px;
 }
 
@@ -63,16 +60,14 @@
     margin-top: 35px;
 }
 
-
-
 .toggleMode__sun,
 .toggleMode__moon {
+    font-size: 14px;
     line-height: 20px;
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,4 +81,8 @@
 .toggleMode__sun__text,
 .toggleMode__moon__text {
     margin-top: 5px;
+}
+
+.toggleMode {
+    display: flex;
 }
